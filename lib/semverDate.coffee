@@ -1,4 +1,4 @@
-class semverDate
+class SemverDate
 
   @today: (options) ->
 
@@ -13,4 +13,4 @@ class semverDate
 
 ## -- Exports -------------------------------------------------------------
 
-exports = module.exports = semverDate
+exports = module.exports = SemverDate

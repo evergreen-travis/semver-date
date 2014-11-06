@@ -4,7 +4,7 @@ semverDate = require '..'
 should     = require 'should'
 
 ## -- Tests -------------------------------------------------------------
-#
+
 describe 'SemverDate ::', ->
   it 'return the date in semver format', ->
     semverDate().should.eql '0.11.6'
